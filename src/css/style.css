@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main--container {
+  margin: auto;
+  height: 100vh;
+  display: block;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  color: white;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.main--ui {
+  background-color: rgba(0, 0, 0, 0.596);
+  width: 40%;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+
+.main--title {
+  font-size: 2.5rem;
+}
+
+.main--content {
+  font-size: 5rem;
+}
+
+.button--app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 2rem auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+  gap: 2rem;
+}
+
+.button--app h3 {
+  font-size: 2rem;
+}
+
+.button--app button {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.button--app button:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=style.css.map */
