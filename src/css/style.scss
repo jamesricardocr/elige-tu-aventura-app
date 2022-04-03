@@ -1,9 +1,19 @@
+
+@font-face {
+  font-family: 'terror';
+  src: url('../font/Doctor\ Terror.otf') ;
+  font-style: normal;
+  font-weight: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 .main {
   &--container {
+    letter-spacing: 4px;
+    font-family: 'terror', sans-serif;
     margin: auto;
     // width: 50rem;
     height: 100vh;
@@ -20,13 +30,13 @@
   }
   &--ui{
       background-color: rgba(0, 0, 0, 0.596);
-      width: 40%;
+      width: 70%;
       padding: 3rem;
       border-radius: 2rem;
-      
   }
   &--title {
     font-size: 2.5rem;
+    font-weight: 300;
   }
   &--content{
       font-size: 5rem;
@@ -34,25 +44,44 @@
 }
 .button--app{
    display: flex;
-   justify-content: flex-start;
+   justify-content: center;
    margin: 2rem auto;
    align-items: center;
    font-size: 2rem;
-   gap: 2rem;
+   gap: 1rem;
    h3{
      font-size: 2rem;
    }
    button{
+    font-family: 'terror', sans-serif;
      padding: 0.8rem 2rem;
-     font-size: 1rem;
+     font-size: 2rem;
      font-weight: bold;
      border-radius: 1rem;
      border: none;
+     text-transform: uppercase;
      cursor: pointer;
       transition: all 500ms;
      &:hover{
       transform: scale(1.2);
      }
    }
-    
+  }
+
+  
+.list{
+  margin-top: 1rem;
+  h2{
+    font-size: 2rem;
+  }
+  ul{
+    font-family: 'terror', sans-serif;
+    font-size: 1.5rem;
+    li{
+      list-style: none;
+    }
+  }
+}
+.previus{
+  font-size: 1.5rem;
 }

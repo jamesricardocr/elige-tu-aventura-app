@@ -4,9 +4,12 @@ import PropTypes from 'prop-types';
 class list extends Component {
     render() {
         return (
-            <div>
+            <div className='list'>
+                <h2>listado de selecciones</h2>
                 <ul>
-                    <li>A</li>
+                    {this.props.record.map((e, i)=> 
+                    <li key={i}>{e}</li>
+                    )}
                 </ul>
             </div>
         );
